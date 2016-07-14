@@ -103,11 +103,13 @@ nav ul li  {
   ========================================
 */
 	
-.collection-one {
-    background: #a9a9a9;
+.collection-one, 
+.collection-two {
+    background: #ddd;
 }
 
-.collection-one  h3{
+.collection-one  h3,
+.collection-two h3 {
     font-family: 'Cinzel', serif;
     font-size: 30px;
     font-weight: 700;
@@ -115,7 +117,8 @@ nav ul li  {
     text-align: center;
 }
 
-.collection-one p{
+.collection-one p,
+.collection-two p {
     font-size: 20px;
     padding: 20px;
     text-align: center;
