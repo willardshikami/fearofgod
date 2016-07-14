@@ -60,7 +60,7 @@ body {
     font-family: 'Cinzel', serif;
     font-size: 50px;
     text-align: center;
-    padding: 10px
+    padding-top: 10px;
 }
 
 .logo a {
@@ -76,6 +76,8 @@ body {
 nav ul li  {
     display: inline-block;
     padding-left: 10px;
+    margin: 10px 0;
+    
 }
 
 .navigation a {
@@ -90,3 +92,110 @@ nav ul li  {
     color: #a9a9a9;
 }
 
+.header-img img {
+    width: 100%;
+}
+
+
+/*
+  ========================================
+  Fourth Collection
+  ========================================
+*/
+	
+.collection-one {
+    background: #a9a9a9;
+}
+
+.collection-one  h3{
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+}
+
+.collection-one p{
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    line-height: normal;
+}
+
+.span_1_of_3 img{
+    width: 80%;
+}
+
+.span_3_of_3 {
+	width: 100%; 
+}
+
+.span_2_of_3 {
+	width: 66.13%; 
+}
+
+.span_1_of_3 {
+    text-align: center;
+	width: 32.26%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span_3_of_3 {
+		width: 100%; 
+	}
+	.span_2_of_3 {
+		width: 100%; 
+	}
+	.span_1_of_3 {
+		width: 100%;
+	}
+}
+
+
+/*  SECTIONS  ============================================================================= */
+
+.fourth {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+    background: #ddd;
+}
+
+/*  GROUPING  ============================================================================= */
+
+
+.collection:before,
+.collection:after {
+    content:"";
+    display:table;
+}
+
+.collection:after {
+    clear:both;
+}
+
+.collection {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*  GRID COLUMN SETUP   ======================= */
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
