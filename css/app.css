@@ -65,7 +65,7 @@ body {
 
 .logo h1{
     letter-spacing: 20px;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .logo a {
@@ -219,6 +219,14 @@ nav ul li  {
     .icons img {
         width: 10%;
     } 
+    
+    .logo h1 {
+        font-size: 20px;
+    }
+    
+    nav {
+        font-size: 15px;
+    }
 }
 
 .footer {
@@ -237,4 +245,8 @@ nav ul li  {
     font-family: 'Cinzel', serif;;
     text-align: center;
     line-height: normal;
+}
+
+.fog a {
+    color: #000;
 }
