@@ -342,6 +342,10 @@ p.zero {
 	.span_1_of_2 {
 		width: 100%; 
 	}
+    
+    .sec4 p{
+       padding: 0;
+    }
 }
 
 .contact {
@@ -393,6 +397,10 @@ p.zero {
     About page
   ========================================
 */
+
+.sec1 {
+    height: 507px;
+}
 
 .sec2 {
     background: #ddd;
