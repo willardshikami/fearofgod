@@ -375,3 +375,40 @@ p.zero {
     font-weight: 300;
     padding: 10px;
 }
+
+.section {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px
+}
+
+.section p{
+    font-size: 20px;
+}
+
+
+/*
+  ========================================
+ 
+    About page
+  ========================================
+*/
+
+.sec2 {
+    background: #ddd;
+    height: 507px;
+}
+
+.sec3 {
+    background: #ddd;
+    height: 507px;
+}
+
+.sec4 {
+    height: 507px;
+}
+
+.sec4 {
+    font-size: 20px;
+    padding: 70px;
+}
