@@ -330,6 +330,7 @@ p.zero {
 
 .span_1_of_2 {
 	width: 49.2%;
+    text-align: center;
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
@@ -343,6 +344,34 @@ p.zero {
 	}
 }
 
+.contact {
+    font-size: 28px;
+    padding: 10px;
+    text-align: center;
+}
+
 .two {
-    
+    background: #ddd;
+    padding: 20px;
+}
+
+.two p {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.two h2 {
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+
+.one {
+    padding-top: 80px;
+}
+
+.one h3 {
+    font-size: 25px;
+    font-weight: 300;
+    padding: 10px;
 }
