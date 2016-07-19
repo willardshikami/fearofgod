@@ -250,3 +250,70 @@ nav ul li  {
 .fog a {
     color: #000;
 }
+
+/*
+  ========================================
+  Shop Women Section
+  ========================================
+*/
+
+.part {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+    background-color: rgba(26, 76, 110, 0.5)
+}
+
+.part p, 
+.part h2 {
+    color: #fff;
+    padding: 10px;
+    left: -20px;
+    top: 20px;
+    position: relative;
+}
+
+.part p {
+    font-family: 'lato';
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0;
+}
+
+.part h2 {
+    font-family: 'lato';
+    font-size: 20px;
+    line-height:  24px;
+    margin: 0;
+}
+
+.effect img {
+    position: absolute;
+    width: 100%;
+    height: 110%;
+    left: 0;
+    bottom: 0;
+    cursor: pointer;
+    margin:  -12px 0;
+    -webkit-transition: bottom .3s ease-in-out;
+    -moz-transition: bottom .3s ease-in-out;
+    -o-transition: bottom .3s ease-in-out;
+    transition: bottom .3s ease-in-out;
+}
+
+.effect img.top:hover {
+    bottom: -96px;
+    padding-top: 100px;
+}
+
+h2.zero,
+p.zero {
+    margin: 0;
+    padding: 0;
+}
+
+
+
